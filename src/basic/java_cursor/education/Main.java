@@ -57,6 +57,7 @@ public class Main {
         //Заповнити масив рандомними числами, вивести їх, потім поміняти місцями парні з непарними
         System.out.println("Завдання №  * (завдання з зірочкою)");
         System.out.println("Заповнити масив рандомними числами, вивести їх, потім поміняти місцями парні з непарними:");
+        System.out.println("Вміст масиву до заміни місцями парні з непарними" + ":  \n" + Arrays.toString(big_array));
         big_array = unitArrays.ReplaceTheElementsInTheArrayEvenWithOdd(big_array);
         System.out.println("Вміст масиву після заміни місцями парні з непарними" + ":  \n" + Arrays.toString(big_array));
     }
